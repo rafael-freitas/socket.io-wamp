@@ -1,0 +1,26 @@
+{
+  "name": "socket.io-wamp",
+  "version": "0.0.1",
+  "description": "A simple client of PUBSUB and RPC interface for Socket.io server",
+  "main": "socket.io-wamp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafael-freitas/socket.io-wamp.git"
+  },
+  "keywords": [
+    "socket.io",
+    "pubsub",
+    "rpc",
+    "wamp",
+    "lib"
+  ],
+  "author": "Rafael Freitas Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafael-freitas/socket.io-wamp/issues"
+  },
+  "homepage": "https://github.com/rafael-freitas/socket.io-wamp#readme"
+}
