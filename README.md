@@ -1,11 +1,26 @@
 # socket.io-wamp
 A simple client of PUBSUB and RPC interface for Socket.io server
 
+## Installation
+
+__Bower__
+```sh
+bower install socket.io-wamp
+```
+
+__npm__
+```sh
+npm install socket.io-wamp
+
+# dependency
+npm install socket.io-client
+```
+
 ## Usage
 
 Include on your page
 ```html
-<script src="socket.io-wamp.js" charset="utf-8"></script>
+<script src="bower_components/socket.io-wamp.js" charset="utf-8"></script>
 ```
 
 Or with Node
@@ -19,7 +34,7 @@ Then, on your script:
 ```js
 // requires socket.io-client
 var io = require('socket.io-client')('http://localhost:3000');
-require("path/to/socket.io-wamp.js")(io);
+require("socket.io-wamp")(io);
 ```
 
 ### Using the library
