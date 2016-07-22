@@ -1,6 +1,6 @@
 {
   "name": "socket.io-wamp",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A simple client of PUBSUB and RPC interface for Socket.io server",
   "main": "socket.io-wamp.js",
   "scripts": {
